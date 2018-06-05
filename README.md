@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+## Welcome to spring
 
-You can use the [editor on GitHub](https://github.com/wx19941125/spring/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+独立于web的框架,容器框架。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+1 二大思想,控制反转IOC和面向切面编程AOP。 2 一大功能,整合。
 
-### Markdown
+### 搭建spring环境
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+导包→spring.xml→web.xml→测试;
 
-```markdown
-Syntax highlighted code block
+### spring之控制反转IOC
 
-# Header 1
-## Header 2
-### Header 3
+控制反转IOC(创建对象);依赖注入DI(注入对象);bean生命周期(摆脱完全依赖);
 
-- Bulleted
-- List
+### spring之面向切面编程AOP
 
-1. Numbered
-2. List
+spring AOP;切入点表达式;
 
-**Bold** and _Italic_ and `Code` text
+### spring之整合Java框架技术
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/wx19941125/spring/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+整合hibernate;整合struts2;SSH CURD;
